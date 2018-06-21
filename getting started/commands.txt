@@ -12,15 +12,24 @@ D:\ember>ember-one>npm start
 or
 D:\ember>ember-one>ember serve
 
+or 
+
+ember s
+
 http://localhost:4200
 
 https://guides.emberjs.com/v3.1.0/getting-started/quick-start/
 https://guides.emberjs.com/v3.1.0/tutorial/ember-cli/
+handlebars templates and syntax /////// http://handlebarsjs.com/
+https://www.emberaddons.com
+https://stackoverflow.com/questions/23349959/recommended-way-to-include-bootstrap-library-in-ember-js-ember-cli-app
 
 Ctrl+C <<<<<< stop server
 
 install bootstrap
 D:\ember>ember-one>bower install bootstrap
+or 
+D:\ember>ember-one>npm install bootstrap
 
 and then 
 D:\ember>ember-one>ember serve
@@ -28,8 +37,39 @@ and go to
 http://localhost:4200
 
 
+......... while in your project folder .........
+Ctrl+C
+ember serve
+
+ember generate route folder-name
+ember generate component folder-name
+
+ember build --env production
+
+ember addon <addon-name>
+ember build <options...>
+ember destroy <bueprint>
+ember generate <blueprint>
+ember init <global-pattern>
+ember install <addon-name>
+ember new <app-name>
+ember serve
+ember test
 
 
+ember uninstall <add-on>
+
+if you cant get bootstrap to work install ember bootstrap
+ember install ember-bootstrap
+ember install ember-bootstrap --bootstrap-version=4
 
 
+install bower globally
+----------------------
+npm install -g bower
+
+bower will store bower components like bootstrap
+
+to uninstall remove dependency from package.json and run command
+npm prune
 
