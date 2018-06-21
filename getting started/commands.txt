@@ -1,0 +1,35 @@
+lets say you want a folder ember in D drive and you want to install ember-one folder and create ember app inside it.
+
+
+D: <<<<<<enter
+D:\cd emberjs <<<<<<enter
+D:\ember>npm install -g ember-cli  <<<<<<enter
+
+D:\ember>ember new ember-one <<<<<enter
+
+D:\ember>cd ember-one <<<<<enter
+D:\ember>ember-one>npm start
+or
+D:\ember>ember-one>ember serve
+
+http://localhost:4200
+
+https://guides.emberjs.com/v3.1.0/getting-started/quick-start/
+https://guides.emberjs.com/v3.1.0/tutorial/ember-cli/
+
+Ctrl+C <<<<<< stop server
+
+install bootstrap
+D:\ember>ember-one>bower install bootstrap
+
+and then 
+D:\ember>ember-one>ember serve
+and go to 
+http://localhost:4200
+
+
+
+
+
+
+
