@@ -57,6 +57,8 @@ ember serve
 ember test
 
 
+
+
 ember uninstall <add-on>
 
 if you cant get bootstrap to work install ember bootstrap
