@@ -75,3 +75,30 @@ bower will store bower components like bootstrap
 to uninstall remove dependency from package.json and run command
 npm prune
 
+
+Ember handlebars helpers
+-------------------------
+http://www.emberjs.com.cn/api/classes/Ember.Templates.helpers.html
+
+action
+component
+concat
+debugger
+each
+each-in
+get
+if
+input
+link-to >> {{#link-to 'about'}}About{{/link-to}}
+loc
+log
+mut
+outlet
+partial
+query-params
+render
+textarea
+unbound
+unless
+with
+
